@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crescent Tech Ticketing</string>
+    <string name="Log_in">log in</string>
+    <string name="footer">CRESCENT TECH LTD</string>
+    <string name="refresh">Refresh Tasks</string>
+    <string name="resolveTv">Resolution/Task Description</string>
+    <string name="update">Update Task</string>
+    <string name="resolve">Resolve Task</string>
+    <string name="addacc">Add Account</string>
+    <string name="adduser">Add User</string>
+    <string name="editclient">Update client</string>
+    <string name="delclient">Delete client</string>
+    <string name="addtask">Create Task</string>
+    <string name="Customername">Customer Name</string>
+    <string name="Contactperson">Contact Person</string>
+    <string name="Customerno">Phone Number</string>
+    <string name="phone_no">Enter Phone Number</string>
+    <string name="c_email">Email Address</string>
+    <string name="clocation">Location</string>
+    <string name="h_email">Enter email address</string>
+    <string name="county">County</string>
+    <string name="town">Town</string>
+    <string name="building">Building</string>
+    <string name="entername">Enter customer name</string>
+    <string name="menu_settings">Settings</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="Clientname">Client Name</string>
+    <string name="taskprompt">Clients Name</string>
+    <string name="subject">Subject</string>
+    <string name="priority">Priority</string>
+    <string name="quantity">Quantity</string>
+    <string name="resolution">Resolution</string>
+    <string name="description">Description</string>
+    <string name="designation">Designation</string>
+    <string name="category">Category</string>
+    <string name="categoryprompt">select category</string>
+    <string name="item">Item</string>
+    <string name="itemtype">Item Type</string>
+    <string name="type">Warranty Type</string>
+    <string name="typeprompt">Enter warranty type</string>
+    <string name="make">Make</string>
+    <string name="warranty_type">Under Warranty</string>
+    <string name="warrantyprompt">Under warranty</string>
+    <string name="serialno">Serial NO</string>
+    <string name="model">Model</string>
+    <string name="selectC">Select Client</string>
+    <string name="selectjobc">Job Category</string>
+    <string name="selectT">Select Type</string>
+    <string name="selectW">Warranty Type</string>
+    <string name="resources">Resolution</string>
+    <string name="Priority">Priority</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="Logout">log Me Out</string>
+    <string name="EmailTo">To :</string>
+    <string name="EmailSubject">Subject :</string>
+    <string name="EmailMessage">Message :</string>
+    <string name="EmailSend">Send</string>
+    <string name="Login">LOGIN</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Login</string>
+
+    <string-array name="client_array">
+        <item>Equity Bank Limited</item>
+        <item>CBA Bank Limited</item>
+        <item>Jubilee Insuarance Holdings Ltd</item>
+        <item>AghaKhan Academy</item>
+    </string-array>
+    <string-array name="jcategory_array">
+        <item>warranty</item>
+        <item>out-of-warranty</item>
+        <item>walk-in</item>
+    </string-array>
+    <string-array name="type_array">
+        <item>Desktop</item>
+        <item>Laptop</item>
+        <item>Printers</item>
+        <item>Server</item>
+    </string-array>
+    <string-array name="Wtype_array">
+        <item>1 year labour and parts</item>
+        <item>1 year labour only</item>
+        <item>1 year parts only</item>
+    </string-array>
+</resources>

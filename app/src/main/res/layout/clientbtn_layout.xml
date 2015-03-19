@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.crescenttechticketing.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <!-- Email Button -->
+
+    <Button
+        android:id="@+id/btn_emailclient"
+        style="@style/AllButton"
+        android:drawableTop="@drawable/btn_email"
+        android:text="EMAIL"
+        android:textColor="#04310b"
+        tools:ignore="HardcodedText" />
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btn_logoutclient"
+        style="@style/AllButton"
+        android:drawableTop="@drawable/btn_logout"
+        android:text="LOGOUT"
+        android:textColor="#04310b"
+        tools:ignore="HardcodedText" />
+
+
+</com.example.crescenttechticketing.DashboardLayout>

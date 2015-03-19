@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/Clientname"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskclientupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/selectC">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/subject"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/tasksubjectupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/subject"
+                android:lines="2">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/description"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskdescriptionupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/description"
+                android:lines="4"></EditText>
+            <!--
+            <TextView
+                        android:id="@+id/tt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="10dip"
+                        android:textSize="17dip"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/category" />
+
+             <EditText
+                        android:hint="@string/selectjobc"
+                        android:id="@+id/taskcategory"
+                        android:layout_width="fill_parent"
+                        android:layout_margin="5dip"
+                        android:layout_marginBottom="15dip"
+                        android:gravity="top"
+                        android:layout_height="wrap_content">
+
+                   </EditText>
+                  -->
+            <TextView
+                android:id="@+id/tt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/item"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskitemupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/item"
+                android:lines="1"></EditText>
+
+            <TextView
+                android:id="@+id/tt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/type"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskwarrantytypeupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/typeprompt"></EditText>
+
+            <TextView
+                android:id="@+id/tt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/itemtype"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskitemtypeupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/itemtype"></EditText>
+
+
+            <TextView
+                android:id="@+id/tt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/make"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskmakeupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/make"
+                android:lines="1"></EditText>
+
+            <TextView
+                android:id="@+id/tt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/warranty_type"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskunderwarrantyupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/warrantyprompt">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/serialno"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskserialnoupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:hint="@string/serialno"
+                android:lines="1"></EditText>
+
+            <TextView
+                android:id="@+id/tt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/model"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskmodelupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:hint="@string/model"
+                android:lines="1">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="Resolution"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskresolutionupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:hint="@string/resolution"
+                android:lines="5"></EditText>
+
+            <TextView
+                android:id="@+id/tt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="Priority"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskpriorityupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:hint="@string/priority"
+                android:lines="5"></EditText>
+
+            <TextView
+                android:id="@+id/tt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="Quantity"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17dip" />
+
+            <EditText
+                android:id="@+id/taskquantityupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:hint="@string/quantity"
+                android:lines="5"></EditText>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80">
+
+        <Button
+            android:id="@+id/buttonupdatetask"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Update Task"></Button>
+
+        <Button
+            android:id="@+id/buttonpdf"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Resolve Task"></Button>
+    </LinearLayout>
+</LinearLayout>
+    

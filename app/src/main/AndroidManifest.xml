@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crescenttechticketing"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        />
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity
+            android:name=".Graph"
+            android:theme="@android:style/Theme.NoTitleBar">
+
+
+        </activity>
+        <activity
+            android:name=".AdminClass"
+            android:label="@string/app_name">
+
+
+        </activity>
+        <activity
+            android:name=".AllClientsTech"
+            android:label="@string/app_name">
+
+
+        </activity>
+        <activity
+            android:name=".LoginTech"
+            android:label="@string/app_name">
+
+
+        </activity>
+        <activity
+            android:name=".LoginClient"
+            android:label="@string/app_name">
+
+
+        </activity>
+        <activity
+            android:name=".Tech_class"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".IntegratedClass"
+            android:label="@string/app_name">
+
+        </activity>
+        <!-- Login Activity -->
+        <activity android:name=".LoginActivity"
+            android:label="@string/app_name"/>
+
+        <!-- DashboardActivity -->
+
+        <!-- RegisterActivity -->
+        <activity android:name=".AddSystemUser"
+            android:label="@string/app_name"/>
+
+
+        <activity
+            android:name=".ClientClass"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".AllClients"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".EditClient"
+            android:label="@string/app_name"/>
+
+
+        <activity
+            android:name=".createtask"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".email"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".updatetask"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Alltasks"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".AddClients"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.crescenttechticketing.ADDCLIENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+
+</manifest>

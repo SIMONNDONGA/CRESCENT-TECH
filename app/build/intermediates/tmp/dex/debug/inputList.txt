@@ -1,0 +1,2 @@
+D:\DEVELOPMENT\ANDROID\app\build\intermediates\classes\debug
+D:\DEVELOPMENT\ANDROID\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-e14b6c45a95ca43570f93190d29598d375ee8ef7.jar

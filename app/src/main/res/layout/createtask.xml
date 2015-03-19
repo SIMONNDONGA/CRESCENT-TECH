@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="20" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tt"
+                android:layout_width="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/Clientname" />
+
+            <EditText
+                android:hint="@string/selectC"
+                android:id="@+id/taskclient"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tt1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/subject" />
+            <EditText
+                android:hint="@string/subject"
+                android:id="@+id/tasksubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="2"
+                android:gravity="top">
+
+            </EditText>
+            <TextView
+                android:id="@+id/tt2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/description" />
+            <EditText
+                android:hint="@string/description"
+                android:id="@+id/taskdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="4"
+                android:gravity="top">
+            </EditText>
+            <!--
+            <TextView
+                        android:id="@+id/tt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="10dip"
+                        android:textSize="17dip"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/category" />
+
+             <EditText
+                        android:hint="@string/selectjobc"
+                        android:id="@+id/taskcategory"
+                        android:layout_width="fill_parent"
+                        android:layout_margin="5dip"
+                        android:layout_marginBottom="15dip"
+                        android:gravity="top"
+                        android:layout_height="wrap_content">
+
+                   </EditText>
+                  -->
+            <TextView
+                android:id="@+id/tt4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/item" />
+            <EditText
+                android:hint="@string/item"
+                android:id="@+id/taskitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="1"
+                android:gravity="top">
+            </EditText>
+
+            <TextView
+                android:id="@+id/tt5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/type" />
+
+            <EditText
+                android:hint="@string/typeprompt"
+                android:id="@+id/taskwarrantytype"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:id="@+id/tt13"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/itemtype" />
+
+            <EditText
+                android:hint="@string/itemtype"
+                android:id="@+id/taskitemtype"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:layout_height="wrap_content">
+            </EditText>
+
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/tt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/make" />
+            <EditText
+                android:hint="@string/make"
+                android:id="@+id/taskmake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="1"
+                android:gravity="top">
+            </EditText>
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/tt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/warranty_type" />
+
+            <EditText
+                android:hint="@string/warrantyprompt"
+                android:id="@+id/taskunderwarranty"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <TextView
+                android:id="@+id/tt8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/serialno" />
+            <EditText
+                android:hint="@string/serialno"
+                android:id="@+id/taskserialno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="1"
+                android:gravity="top">
+            </EditText>
+            <TextView
+                android:id="@+id/tt9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="@string/model" />
+            <EditText
+                android:hint="@string/model"
+                android:id="@+id/taskmodel"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="1"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <TextView
+                android:id="@+id/tt10"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="Resolution" />
+            <EditText
+                android:hint="@string/resolution"
+                android:id="@+id/taskresolution"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="5"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:id="@+id/tt11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="Priority" />
+            <EditText
+                android:hint="@string/priority"
+                android:id="@+id/taskpriority"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="5"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:id="@+id/tt12"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:paddingRight="10dip"
+                android:textSize="17dip"
+                android:text="Quantity" />
+            <EditText
+                android:hint="@string/quantity"
+                android:id="@+id/taskquantity"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:lines="5"
+                android:layout_height="wrap_content">
+            </EditText>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80" >
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addtask" >
+        </Button>
+    </LinearLayout>
+</LinearLayout>

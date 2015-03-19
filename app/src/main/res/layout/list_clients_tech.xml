@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- Client id (client_id) - will be HIDDEN - used to pass to other activity -->
+    <TextView
+        android:id="@+id/client_id_tech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/client_name_tech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/client_contactperson_tech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/client_number_tech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/client_email_tech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/client_town_tech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/client_building_tech"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

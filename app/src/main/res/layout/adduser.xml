@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/usersname"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/username">
+
+                <requestFocus />
+
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/password2"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/h_email"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/email2"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_email"></EditText>
+        </TableRow>
+
+
+    </TableLayout>
+    <!--  Error message -->
+    <TextView
+        android:id="@+id/register_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textColor="#e30000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonAdd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adduser"></Button>
+
+
+</LinearLayout>

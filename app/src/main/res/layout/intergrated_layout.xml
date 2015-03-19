@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/actionbar" />
+
+    <Button
+        android:id="@+id/adminbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:text="Login As Adminstrator"
+        tools:ignore="HardCodedText">
+
+    </Button>
+
+    <Button
+        android:id="@+id/techbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:text="Login As Technician"
+        tools:ignore="HardCodedText">
+
+    </Button>
+
+    <Button
+        android:id="@+id/clientbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:text="Login As Client"
+        tools:ignore="HardCodedText">
+
+    </Button>
+
+</LinearLayout>

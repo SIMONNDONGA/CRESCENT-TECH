@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.crescenttechticketing.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <!-- Createtask Button -->
+
+    <Button
+        android:id="@+id/btn_createtasktech"
+        style="@style/AllButton"
+        android:drawableTop="@drawable/btn_taskcreate"
+        android:text="CREATE TASK"
+        android:textColor="#04310b"
+        tools:ignore="HardcodedText" />
+
+    <!-- AllTasks Button -->
+
+    <Button
+        android:id="@+id/btn_alltaskstech"
+        style="@style/AllButton"
+        android:drawableTop="@drawable/btn_alltasks"
+        android:text="ALL TASKS"
+        android:textColor="#04310b"
+        tools:ignore="HardcodedText" />
+    <!-- All Clients Button -->
+
+    <Button
+        android:id="@+id/btn_allclientstech"
+        style="@style/AllButton"
+        android:drawableTop="@drawable/btn_allclients"
+        android:text="ALL CLIENTS"
+        android:textColor="#04310b"
+        tools:ignore="HardcodedText" />
+
+
+    <!-- Email Button -->
+
+    <Button
+        android:id="@+id/btn_emailtech"
+        style="@style/AllButton"
+        android:drawableTop="@drawable/btn_email"
+        android:text="EMAIL"
+        android:textColor="#04310b"
+        tools:ignore="HardcodedText" />
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btn_logouttech"
+        style="@style/AllButton"
+        android:drawableTop="@drawable/btn_logout"
+        android:text="LOGOUT"
+        android:textColor="#04310b"
+        tools:ignore="HardcodedText" />
+
+
+</com.example.crescenttechticketing.DashboardLayout>

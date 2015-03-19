@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Customername" />
+
+            <EditText
+                android:id="@+id/customername"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/entername">
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Contactperson" />
+
+            <EditText
+                android:id="@+id/contactperson"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/entername"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Customerno" />
+
+            <EditText
+                android:id="@+id/phoneno"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_no"
+                android:inputType="phone">
+            </EditText>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clocation" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/clocation">
+
+            </EditText>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c_email" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/h_email"
+                android:inputType="textEmailAddress"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/county" />
+
+            <EditText
+                android:id="@+id/county"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/county"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/town" />
+
+            <EditText
+                android:id="@+id/town"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/town"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/building" />
+
+            <EditText
+                android:id="@+id/building"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/building"/>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonAddclient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/addacc"/>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
